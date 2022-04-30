@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <title>Touchearth</title>
+
+    <!--favicon icon-->
+    <link rel="icon" href="images/logo-b.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&amp;display=swap" rel="stylesheet">
+
+    <!-- slick css -->
+    <link rel="stylesheet" href="lib/slick/slick-carousel.css">
+    <link rel="stylesheet" href="lib/slick/slick.css">
+
+    <!------bootstarp----------->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-grid.min.css">
+
+    <!------animate----------->
+    <link rel="stylesheet" href="lib/animate/animate.css">
+
+    <!-- global style css -->
+    <link rel="stylesheet" href="css/global-style.css">
+
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--responsive css-->
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+    <!-- ======================================= 
+        ==Start Header section==  
+    =======================================-->
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="images/logo-w.png" alt="logo">
+            <!-- <img src="images/logo-b.png" alt="logo"> -->
+        </a>
+
+        <div class="hamburger" onclick="this.classList.toggle('active')">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 200 200">
+                  <g stroke-width="6.5" stroke-linecap="round">
+                    <path
+                      d="M72 82.286h28.75"
+                      fill="#009100"
+                      fill-rule="evenodd"
+                      stroke="#fff"
+                    />
+                    <path
+                      d="M100.75 103.714l72.482-.143c.043 39.398-32.284 71.434-72.16 71.434-39.878 0-72.204-32.036-72.204-71.554"
+                      fill="none"
+                      stroke="#fff"
+                    />
+                    <path
+                      d="M72 125.143h28.75"
+                      fill="#009100"
+                      fill-rule="evenodd"
+                      stroke="#fff"
+                    />
+                    <path
+                      d="M100.75 103.714l-71.908-.143c.026-39.638 32.352-71.674 72.23-71.674 39.876 0 72.203 32.036 72.203 71.554"
+                      fill="none"
+                      stroke="#fff"
+                    />
+                    <path
+                      d="M100.75 82.286h28.75"
+                      fill="#009100"
+                      fill-rule="evenodd"
+                      stroke="#fff"
+                    />
+                    <path
+                      d="M100.75 125.143h28.75"
+                      fill="#009100"
+                      fill-rule="evenodd"
+                      stroke="#fff"
+                    />
+                  </g>
+                </svg>
+        </div>
+
+    </header>
+
+    <div class="menu-wrapper">
+        <ul class="main-menu">
+            <li><a href="index.html" data-text="Home">Home</a></li>
+            <li><a href="#about-us" data-text="About">About</a></li>
+            <li><a href="#products" data-text="Products">Products</a></li>
+            <li><a href="#contact" data-text="Contact">Contact</a></li>
+        </ul>
+
+        <div class="quick-link">
+            <div class="follow-us">
+                <span>Follow Us</span>
+                <ul class="social-icon">
+                    <li class="gmail social-container">
+                        <a class="icon-circle" href="#" title="Gmail" target="_blank">
+                            <svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="100px" height="100px"><path d="M12 23.403V23.39 10.389L11.88 10.3h-.01L9.14 8.28C7.47 7.04 5.09 7.1 3.61 8.56 2.62 9.54 2 10.9 2 12.41v3.602L12 23.403zM38 23.39v.013l10-7.391V12.41c0-1.49-.6-2.85-1.58-3.83-1.46-1.457-3.765-1.628-5.424-.403L38.12 10.3 38 10.389V23.39zM14 24.868l10.406 7.692c.353.261.836.261 1.189 0L36 24.868V11.867L25 20l-11-8.133V24.868zM38 25.889V41c0 .552.448 1 1 1h6.5c1.381 0 2.5-1.119 2.5-2.5V18.497L38 25.889zM12 25.889L2 18.497V39.5C2 40.881 3.119 42 4.5 42H11c.552 0 1-.448 1-1V25.889z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="facebook social-container">
+                        <a class="icon-circle" href="#" title="Facebook" target="_blank">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" class="svg-inline--fa fa-facebook-f fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="twitter social-container">
+                        <a class="icon-circle" href="#" title="Twitter" target="_blank">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="linkedin social-container">
+                        <a class="icon-circle" href="#" title="Linkedin" target="_blank">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in" class="svg-inline--fa fa-linkedin-in fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="instagram social-container">
+                        <a class="icon-circle" href="#" title="Instagram" target="_blank">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <img src="images/logo-b.png" alt="image" class="horizontal-img">
+    </div>
+    <!-- ======================================= 
+        ==End Header section==  
+    =======================================-->
+
+
+    <!-- ======================================= 
+        ==Start Hero section==  
+    =======================================-->
+    <!-- <span class="vertical-line line1"></span>
+    <span class="vertical-line line2"></span>
+    <span class="vertical-line line3"></span>
+    <span class="vertical-line line4"></span>
+    <span class="vertical-line line5"></span> -->
+
+    <section class="banner__slider  pos-relative">
+        <div class="slider stick-dots">
+            <div class="slide">
+                <div class="slide__img">
+                    <img src="images/slider.png" alt="" data-lazy="" data-animation-in="zoomInImage" />
+                </div>
+                <div class="slide__content ">
+                    <div class="slide__content--headings text-center">
+
+                        <p class="animated top-title" data-animation-in="fadeInUp" data-delay-in="0.3">Lorem Ipsum</p>
+                        <h2 class="animated title" data-animation-in="fadeInUp">Lorem ipsum dolor sit amet</h2>
+                        <button class="btn-light btn button-custom animated" data-animation-in="fadeInUp">Explore</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide__img">
+                    <img src="images/slider.png" alt="" data-lazy="" class="full-image animated" data-animation-in="zoomOutImage" />
+                </div>
+                <div class="slide__content slide__content__right">
+                    <div class="slide__content--headings text-right">
+                        <p class="animated top-title" data-animation-in="fadeInLeft" data-delay-in="0.2">Lorem Ipsum</p>
+                        <h2 class="animated title" data-animation-in="fadeInLeft">Lorem ipsum dolor sit amet</h2>
+                        <button class="btn-success btn button-custom animated text-white" data-animation-in="fadeInUp">Explore</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide__img">
+                    <img src="images/slider.png" alt="" data-lazy="" class="full-image animated" data-animation-in="zoomInImage" />
+                </div>
+                <div class="slide__content slide__content__left">
+                    <div class="slide__content--headings text-left">
+                        <p class="animated top-title" data-animation-in="fadeInRight" data-delay-in="0.2">Lorem Ipsum</p>
+                        <h2 class="animated title" data-animation-in="fadeInRight">Lorem ipsum dolor sit amet</h2>
+                        <button class="btn-light btn button-custom animated" data-animation-in="fadeInUp">Explore</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+          <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" width="44px" height="44px" id="circle" fill="none" stroke="currentColor">
+              <circle r="20" cy="22" cx="22" id="test">
+          </symbol>
+      </svg>
+    </section>
+
+    <!-- ======================================= 
+        ==End Hero section==  
+    =======================================-->
+
+    <!-- ======================================= 
+        ==Start about section==  
+    =======================================-->
+    <section class="about-section pos-relative" id="about-us">
+        <div class="overlay"></div>
+        <div class="about-shape">
+            <img src="images/about-shape.png" alt="shape" class="shape">
+            <span class="circle1"></span>
+        </div>
+        <div class="container">
+            <img src="images/dot-texture.png" alt="pattern img" class="dot-pattern">
+            <!-- <span class="about-img1 animate-me"></span> -->
+            <div class="about-content">
+                <h2 class="animate-me">Lorem ipsum dolor sit amet, consectetur adipiscing elit diam donec. </h2>
+                <h5 class="animate-me">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing elit pellentesque habitant morbi tristique senectus et. Morbi quis commodo odio aenean sed adipiscing
+                    diam donec. Nunc aliquet bibendum enim facilisis gravida neque convallis a cras. Tincidunt lobortis feugiat vivamus at augue. A scelerisque purus semper eget duis at. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae
+                    nunc sed. Tempus imperdiet nulla malesuada pellentesque elit eget gravida. Lacus laoreet non curabitur gravida arcu ac tortor dignissim convallis. Ullamcorper sit amet risus nullam eget felis eget. Non quam lacus suspendisse faucibus
+                    interdum posuere lorem ipsum dolor.</h5>
+            </div>
+            <span class="about-img2 animate-me"></span>
+        </div>
+    </section>
+    <!-- ======================================= 
+        ==End about section==  
+    =======================================-->
+
+
+    <!-- ======================================= 
+        ==Start Portfolio section==  
+    =======================================-->
+    <!-- <section class="portfolio-section" id="portfolio">
+        <h2 class="section-title" data-enllax-ratio="-0.5" data-enllax-type="foreground">porojects</h2>
+        <div class="overlay"></div>
+        <img src="images/portfolio-shape.png" alt="shape" class="shape" data-enllax-ratio="0.5" data-enllax-type="foreground">
+        <div class="container">
+            <div class="portfolio-wrapper">
+                <span class="portfolio-paging-status"></span>
+                <div class="portfolio-content-wrapper">
+                    <div class="portfolio-content">
+                        <span class="portfolio-type">Blog Website</span>
+                        <h2>Staker Fashion Blog</h2>
+                        <p>Sed eget sodales tellus. In maximus velit necm euismod vehicula. Fusce blandit sapien pretiun.</p>
+                        <a href="#" class="live-view link-default">View Live
+                            <span>
+                                <img src="images/arrow-right-white.png" alt="arrow">
+                            </span>
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-content">
+                        <span class="portfolio-type">Event Website</span>
+                        <h2>Staker Event Website</h2>
+                        <p>Sed eget sodales tellus. In maximus velit necm euismod vehicula. Fusce blandit sapien pretiun eros faucibus lobortis a sit amet leo.</p>
+                        <a href="#" class="live-view link-default">View Live
+                            <span>
+                                <img src="images/arrow-right-white.png" alt="arrow">
+                            </span>
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-content">
+                        <span class="portfolio-type">Criptocurrency</span>
+                        <h2>Staker Criptocurrency</h2>
+                        <p>Sed eget sodales tellus. In maximus velit necm euismod vehicula. Fusce blandit sapien pretiun eros faucibus lobortis.</p>
+                        <a href="#" class="live-view link-default">View Live
+                            <span>
+                                <img src="images/arrow-right-white.png" alt="arrow">
+                            </span>
+                        </a>
+                    </div>
+                </div>
+              
+                <div class="portfolio-img">
+                    <div class="img-area">
+                       <img src="images/portfolio11.jpg" alt="portfolio img">
+                    </div>
+                    <div class="img-area">
+                       <img src="images/portfolio12.jpg" alt="portfolio img">
+                    </div>
+                    <div class="img-area">
+                       <img src="images/portfolio13.jpg" alt="portfolio img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- ======================================= 
+        ==End Portfolio section==  
+    =======================================-->
+
+
+    <!-- ======================================= 
+        ==Start Skill section==  
+    =======================================-->
+    <!-- <section class="skill-section" id="skill">
+        <div class="container">
+            <h2 class="section-title" data-enllax-ratio="0.5" data-enllax-type="foreground" data-enllax-direction="horizontal">My Skills</h2>
+            
+            <div class="skill-wrapper" id="me-working-skill">
+                <span class="vertical-line"></span>
+                <div class="single-skill animate-me">
+                    <span class="circle"></span>
+                    <span class="rectengle"></span>
+                    <h3><span class="title">html, css</span> <span class="line"></span></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="single-skill animate-me">
+                    <span class="circle"></span>
+                    <span class="rectengle"></span>
+                    <h3><span class="title">scss</span> <span class="line"></span></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis voluptate quod odit excepturi nisi!</p>
+                </div>
+                <div class="single-skill animate-me">
+                   <span class="circle"></span>
+                   <span class="rectengle"></span>
+                    <h3><span class="title">jQuery</span> <span class="line"></span></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis voluptate quod odit excepturi nisi! Nostrum earum quia quaerat modi molestiae.</p>
+                </div>
+                <div class="single-skill animate-me">
+                   <span class="circle"></span>
+                   <span class="rectengle"></span>
+                    <h3><span class="title">php</span> <span class="line"></span></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis </p>
+                </div>
+                <div class="single-skill animate-me">
+                   <span class="circle"></span>
+                   <span class="rectengle"></span>
+                    <h3><span class="title">wordpress</span> <span class="line"></span></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis voluptate quod odit excepturi nisi! </p>
+                </div>
+                <div class="single-skill animate-me">
+                   <span class="circle"></span>
+                   <span class="rectengle"></span>
+                    <h3><span class="title">ACF</span> <span class="line"></span></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="single-skill animate-me">
+                   <span class="circle"></span>
+                   <span class="rectengle"></span>
+                    <h3><span class="title">elementor</span> <span class="line"></span></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="single-skill animate-me">
+                   <span class="circle"></span>
+                   <span class="rectengle"></span>
+                    <h3><span class="title">woocommerce</span> <span class="line"></span></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="single-skill animate-me">
+                   <span class="circle"></span>
+                   <span class="rectengle"></span>
+                    <h3><span class="title">react.js</span> <span class="line"></span></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="single-skill animate-me">
+                   <span class="circle"></span>
+                   <span class="rectengle"></span>
+                    <h3><span class="title">vue.js</span> <span class="line"></span></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- ======================================= 
+        ==End Skill section==  
+    =======================================-->
+
+
+    <!-- ======================================= 
+        ==Start Service section==  
+    =======================================-->
+    <section class="service-section pos-relative">
+        <h2 class="section-title" data-enllax-ratio="-0.6" data-enllax-type="foreground">Services</h2>
+        <div class="container">
+            <div class="service-wrapper">
+                <div class="single-service">
+                    <img src="images/photo.png" alt="icon" class="service-icon">
+                    <h4>Material</h4>
+                    <p>Sed eget sodales tellus. In maxim velit nec euismod vehicul Fusceblan sapien pretium eros faucibus lobortis a sit amet leo. Duis erat .</p>
+                    <img src="images/service-box-logo.png" alt="watermark" class="watermark">
+                </div>
+                <div class="single-service">
+                    <img src="images/photo.png" alt="icon" class="service-icon">
+                    <h4>Material</h4>
+                    <p>Sed eget sodales tellus. In maxim velit nec euismod vehicul Fusceblan sapien pretium eros faucibus lobortis a sit amet leo. Duis erat .</p>
+                    <img src="images/service-box-logo.png" alt="watermark" class="watermark">
+                </div>
+                <div class="single-service">
+                    <img src="images/photo.png" alt="icon" class="service-icon">
+                    <h4>Material</h4>
+                    <p>Sed eget sodales tellus. In maxim velit nec euismod vehicul Fusceblan sapien pretium eros faucibus lobortis a sit amet leo. Duis erat .</p>
+                    <img src="images/service-box-logo.png" alt="watermark" class="watermark">
+                </div>
+                <div class="single-service">
+                    <img src="images/photo.png" alt="icon" class="service-icon">
+                    <h4>Material</h4>
+                    <p>Sed eget sodales tellus. In maxim velit nec euismod vehicul Fusceblan sapien pretium eros faucibus lobortis a sit amet leo. Duis erat .</p>
+                    <img src="images/service-box-logo.png" alt="watermark" class="watermark">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======================================= 
+        ==End Service section==  
+    =======================================-->
+
+
+    <!-- ======================================= 
+        ==Start product section==  
+    =======================================-->
+    <section class="product-section">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="product-wrapper">
+                <div class="single-product">
+                    <div>
+                        <img src="images/product-quote.png" alt="quote" class="quote">
+                        <h2>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</h2>
+                        <h5 class="author"><a href="#" target="_blank" title="View Author Info">Name</a> <span class="desgination">CEO at TE</span></h5>
+                    </div>
+
+                    <div>
+                        <img src="images/product-quote.png" alt="quote" class="quote">
+                        <h2>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</h2>
+                        <h5 class="author"><a href="#" target="_blank" title="View Author Info">Name</a> <span class="desgination">CEO at TE</span></h5>
+                    </div>
+
+                    <div>
+                        <img src="images/product-quote.png" alt="quote" class="quote">
+                        <h2>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</h2>
+                        <h5 class="author"><a href="#" target="_blank" title="View Author Info">Name</a> <span class="desgination">CEO at TE</span></h5>
+                    </div>
+                </div>
+
+                <div class="author-img-wrapper animate-me">
+                    <div><img src="images/product-author.png" class="author-img" alt="author img"></div>
+                    <div><img src="images/product-author.png" class="author-img" alt="author img"></div>
+                    <div><img src="images/product-author.png" class="author-img" alt="author img"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======================================= 
+        ==End product section==  
+    =======================================-->
+
+
+    <!-- ======================================= 
+        ==Start Blog section==  
+    =======================================-->
+    <section class="blog-section" id="blog">
+        <img src="images/blog-ellipse.png" alt="" class="ellipse">
+        <div class="container">
+            <h2 class="section-title" data-enllax-ratio="0.5" data-enllax-type="foreground" data-enllax-direction="horizontal">Articles</h2>
+            <div class="blog-wrapper">
+                <div class="single-blog title">
+                    <h2 class="animate-me">My Articles</h2>
+                    <a href="blog.html" class="link-default view-more animate-me">More Article
+                        <span>
+                            <img src="images/arrow-right-white.png" alt="arrow">
+                        </span>
+                    </a>
+                </div>
+
+                <div class="single-blog animate-me">
+                    <div>
+                        <a href="#" class="featured-img"><img src="images/te-placeholder.png" alt="featured img"></a>
+                        <div class="post-title">
+                            <h3><a href="#">Donec facilisis accumsan arcu are, quis dapibus neque ac.</a></h3>
+                        </div>
+                    </div>
+                    <div class="like-comment">
+                        <a href="#" class="read-more">
+                            <img src="images/arrow-right-white.png" alt="arrow">
+                        </a>
+                        <span class="like">
+                            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="heart" class="svg-inline--fa fa-heart fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path></svg>
+                            241
+                        </span>
+                        <span class="comment">
+                            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="comment-dots" class="svg-inline--fa fa-comment-dots fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M144 208c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zm112 0c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zm112 0c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zM256 32C114.6 32 0 125.1 0 240c0 47.6 19.9 91.2 52.9 126.3C38 405.7 7 439.1 6.5 439.5c-6.6 7-8.4 17.2-4.6 26S14.4 480 24 480c61.5 0 110-25.7 139.1-46.3C192 442.8 223.2 448 256 448c141.4 0 256-93.1 256-208S397.4 32 256 32zm0 368c-26.7 0-53.1-4.1-78.4-12.1l-22.7-7.2-19.5 13.8c-14.3 10.1-33.9 21.4-57.5 29 7.3-12.1 14.4-25.7 19.9-40.2l10.6-28.1-20.6-21.8C69.7 314.1 48 282.2 48 240c0-88.2 93.3-160 208-160s208 71.8 208 160-93.3 160-208 160z"></path></svg>
+                            236
+                        </span>
+                    </div>
+                </div>
+
+                <div class="single-blog animate-me">
+                    <div>
+                        <a href="#" class="featured-img"><img src="images/te-placeholder.png" alt="featured img"></a>
+                        <div class="post-title">
+                            <h3><a href="#">Donec facilisis accumsan arcu are, quis dapibus neque ac.</a></h3>
+
+                        </div>
+                    </div>
+                    <div class="like-comment">
+                        <a href="#" class="read-more">
+                            <span>
+                                <img src="images/arrow-right-white.png" alt="arrow">
+                            </span>
+                        </a>
+                        <span class="like">
+                            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="heart" class="svg-inline--fa fa-heart fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path></svg>
+                            241
+                        </span>
+                        <span class="comment">
+                            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="comment-dots" class="svg-inline--fa fa-comment-dots fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M144 208c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zm112 0c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zm112 0c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zM256 32C114.6 32 0 125.1 0 240c0 47.6 19.9 91.2 52.9 126.3C38 405.7 7 439.1 6.5 439.5c-6.6 7-8.4 17.2-4.6 26S14.4 480 24 480c61.5 0 110-25.7 139.1-46.3C192 442.8 223.2 448 256 448c141.4 0 256-93.1 256-208S397.4 32 256 32zm0 368c-26.7 0-53.1-4.1-78.4-12.1l-22.7-7.2-19.5 13.8c-14.3 10.1-33.9 21.4-57.5 29 7.3-12.1 14.4-25.7 19.9-40.2l10.6-28.1-20.6-21.8C69.7 314.1 48 282.2 48 240c0-88.2 93.3-160 208-160s208 71.8 208 160-93.3 160-208 160z"></path></svg>
+                            236
+                        </span>
+                    </div>
+                </div>
+
+                <div class="single-blog animate-me">
+                    <div>
+                        <a href="#" class="featured-img"><img src="images/te-placeholder.png" alt="featured img"></a>
+                        <div class="post-title">
+                            <h3><a href="#">Donec facilisis accumsan arcu are, quis dapibus neque ac.</a></h3>
+                        </div>
+                    </div>
+                    <div class="like-comment">
+                        <a href="#" class="read-more">
+                            <span>
+                                <img src="images/arrow-right-white.png" alt="arrow">
+                            </span>
+                        </a>
+                        <span class="like">
+                            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="heart" class="svg-inline--fa fa-heart fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path></svg>
+                            241
+                        </span>
+                        <span class="comment">
+                            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="comment-dots" class="svg-inline--fa fa-comment-dots fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M144 208c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zm112 0c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zm112 0c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zM256 32C114.6 32 0 125.1 0 240c0 47.6 19.9 91.2 52.9 126.3C38 405.7 7 439.1 6.5 439.5c-6.6 7-8.4 17.2-4.6 26S14.4 480 24 480c61.5 0 110-25.7 139.1-46.3C192 442.8 223.2 448 256 448c141.4 0 256-93.1 256-208S397.4 32 256 32zm0 368c-26.7 0-53.1-4.1-78.4-12.1l-22.7-7.2-19.5 13.8c-14.3 10.1-33.9 21.4-57.5 29 7.3-12.1 14.4-25.7 19.9-40.2l10.6-28.1-20.6-21.8C69.7 314.1 48 282.2 48 240c0-88.2 93.3-160 208-160s208 71.8 208 160-93.3 160-208 160z"></path></svg>
+                            236
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======================================= 
+        ==End Blog section==  
+    =======================================-->
+
+
+    <!-- ======================================= 
+        ==Start Instagram section==  
+    =======================================-->
+    <!-- <section class="instagram-section">
+        <img src="images/instagram-shape.png" alt="shape" class="insta-shape">
+        <div class="container">
+            <div class="section-title">
+                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                    </svg>
+                <h2>Instagram</h2>
+            </div>
+            <div class="instagram-img-wrapper">
+                <div class="single-col sm">
+                    <a href="#"><img src="images/instagram-img1.jpg" alt="instagram img"></a>
+                    <a href="#"><img src="images/instagram-img2.jpg" alt="instagram img"></a>
+                </div>
+                <div class="single-col md">
+                    <a href="#"><img src="images/instagram-img3.jpg" alt="instagram img"></a>
+                    <a href="#"><img src="images/instagram-img4.jpg" alt="instagram img"></a>
+                </div>
+                <div class="single-col lg">
+                    <a href="#"><img src="images/instagram-img5.jpg" alt="instagram img"></a>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- ======================================= 
+        ==End Instagram section==  
+    =======================================-->
+
+    <!-- ======================================= 
+        ==Start Contact section==  
+    =======================================-->
+    <section class="footer-area" id="contact">
+        <div class="contact-section">
+            <div class="container">
+                <div class="section-title">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope-open-text" class="svg-inline--fa fa-envelope-open-text fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M176 216h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16H176c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16zm-16 80c0 8.84 7.16 16 16 16h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16H176c-8.84 0-16 7.16-16 16v16zm96 121.13c-16.42 0-32.84-5.06-46.86-15.19L0 250.86V464c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V250.86L302.86 401.94c-14.02 10.12-30.44 15.19-46.86 15.19zm237.61-254.18c-8.85-6.94-17.24-13.47-29.61-22.81V96c0-26.51-21.49-48-48-48h-77.55c-3.04-2.2-5.87-4.26-9.04-6.56C312.6 29.17 279.2-.35 256 0c-23.2-.35-56.59 29.17-73.41 41.44-3.17 2.3-6 4.36-9.04 6.56H96c-26.51 0-48 21.49-48 48v44.14c-12.37 9.33-20.76 15.87-29.61 22.81A47.995 47.995 0 0 0 0 200.72v10.65l96 69.35V96h320v184.72l96-69.35v-10.65c0-14.74-6.78-28.67-18.39-37.77z"></path></svg>
+                    <h2>get in touch</h2>
+                </div>
+
+                <div class="content-wrapper">
+                    <div class="address-area">
+                        <address>
+                        <span class="label address-label animate-me">address :</span>
+                        <p class="address animate-me">My address</p>
+                        <span class="label email-label animate-me">E-mail :</span>
+                        <a href="https://demo.themecon.net/cdn-cgi/l/email-protection#443d2b31366929252d28042329252d286a272b29" class="email animate-me"><span class="__cf_email__" data-cfemail="770e1802055a1a161e1b37101a161e1b5914181a">[email&#160;protected]</span></a>
+                    </address>
+                    </div>
+
+                    <div class="contact-form">
+                        <form action="#">
+                            <div class="input-group name animate-me">
+                                <label for="name">name *</label>
+                                <input type="text" name="name" id="name" placeholder="Your Name">
+                            </div>
+
+                            <div class="input-group email animate-me">
+                                <label for="email">email *</label>
+                                <input type="email" name="email" id="email" placeholder="Your Email">
+                            </div>
+
+                            <div class="input-group msg animate-me">
+                                <label for="message">message *</label>
+                                <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message"></textarea>
+                            </div>
+
+                            <div class="input-group submit animate-me">
+                                <button type="submit">send here</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer-section">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="copyright-text">
+                        <!-- <p>&copy; <span class="update-year"></span> Developed By <a href="" target="_blank">xxx</a> All Right Reserved </p> -->
+                    </div>
+
+                    <ul class="social-icon">
+                        <li class="facebook">
+                            <a href="#" title="Facebook" target="_blank">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" class="svg-inline--fa fa-facebook-f fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="twitter">
+                            <a href="#" title="Twitter" target="_blank">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="linkedin">
+                            <a href="#" title="Linkedin" target="_blank">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in" class="svg-inline--fa fa-linkedin-in fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path fill="currentColor" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="instagram">
+                            <a href="#" title="Instagram" target="_blank">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!-- ======================================= 
+        ==End Contact section==  
+    =======================================-->
+
+
+
+    <!-- ======================================= 
+        ==Start scroll top==  
+    =======================================-->
+    <div class="scroll-top not-visible">
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2.66667 3.68"><image width="50" height="69" transform="scale(0.05333)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAABFCAYAAAAIGLXIAAAACXBIWXMAAM+eAADPngGCbfgcAAAY92lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDIgNzkuMTY0NDYwLCAyMDIwLzA1LzEyLTE2OjA0OjE3ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczpzdEV2dD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlRXZlbnQjIiB4bWxuczppbGx1c3RyYXRvcj0iaHR0cDovL25zLmFkb2JlLmNvbS9pbGx1c3RyYXRvci8xLjAvIiB4bWxuczpwZGY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vcGRmLzEuMy8iIHhtbG5zOk1pY3Jvc29mdFBob3RvPSJodHRwOi8vbnMubWljcm9zb2Z0LmNvbS9waG90by8xLjAiIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyIgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iIHhtbG5zOmV4aWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vZXhpZi8xLjAvIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMi0wNC0zMFQxNjoyNzozOSswNTozMCIgeG1wOk1vZGlmeURhdGU9IjIwMjItMDQtMzBUMTY6Mjc6MzkrMDU6MzAiIHhtcDpDcmVhdGVEYXRlPSIyMDIwLTA3LTAxVDE5OjMyOjQ3LTA1OjAwIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIElsbHVzdHJhdG9yIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6ZjAzNjI2Y2EtNWI1YS1jMDQ3LWFiNmUtZjE4MjI4ODYzYmE2IiB4bXBNTTpEb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6N2RjMzdkM2QtMzRlMi0xMTRmLWE5ZjAtNjY4YjFmNzdlYWNmIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InV1aWQ6NUQyMDg5MjQ5M0JGREIxMTkxNEE4NTkwRDMxNTA4QzgiIHhtcE1NOlJlbmRpdGlvbkNsYXNzPSJwcm9vZjpwZGYiIGlsbHVzdHJhdG9yOlN0YXJ0dXBQcm9maWxlPSJQcmludCIgcGRmOlByb2R1Y2VyPSJBZG9iZSBQREYgbGlicmFyeSAxMC4wMSIgcGhvdG9zaG9wOkxlZ2FjeUlQVENEaWdlc3Q9Ijg2MDZBRDc5MjAyNUQ4NzU5NTkyMkI1ODU5MDI5MDY2IiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiBwaG90b3Nob3A6SUNDUHJvZmlsZT0ic1JHQiBJRUM2MTk2Ni0yLjEiIHBob3Rvc2hvcDpIZWFkbGluZT0iZG91YmxlIHJpZ2h0IGFycm93cyBkaXJlY3Rpb24gZm9yd2FyZCBidXR0b24gc2lsaG91ZXR0ZSBzdHlsZSBpY29uIiB0aWZmOkltYWdlV2lkdGg9Ijc5NzIiIHRpZmY6SW1hZ2VMZW5ndGg9Ijc5NzIiIHRpZmY6UGhvdG9tZXRyaWNJbnRlcnByZXRhdGlvbj0iMiIgdGlmZjpTYW1wbGVzUGVyUGl4ZWw9IjMiIHRpZmY6WFJlc29sdXRpb249IjEzNTAvMSIgdGlmZjpZUmVzb2x1dGlvbj0iMTM1MC8xIiB0aWZmOlJlc29sdXRpb25Vbml0PSIyIiBleGlmOkV4aWZWZXJzaW9uPSIwMjMxIiBleGlmOkNvbG9yU3BhY2U9IjEiIGV4aWY6UGl4ZWxYRGltZW5zaW9uPSI3OTcyIiBleGlmOlBpeGVsWURpbWVuc2lvbj0iNzk3MiIgZXhpZjpVc2VyQ29tbWVudD0iU1NVQ3YzSDRzSUFBQUFBQUFBQ29SU3kyN0RJQkM4VitvL1dKd2JOVFkyZHZJVFBmUVk5YkFHa3RCZ3NBQzNpcXI4ZTNtRWlGYXBlbU5ubDVuWng5ZmpRMVdoRWF5Z2FGdDloY2pIUXNyRk9nTk9hT1hoK3VtS0c2NFlOeDVaWitURFlMSXVBYzZFMDBhQUxNRVJIRDBxbUxnSDFTSmxnQzh4aWF3RHQxaHVDL1ZKVUtPdDAvUTBleHVsUHZXdTlMUjNjMzBYSlFFdHVDazRmdkJtZnJEblhuY3BybklpVVlIektmUXl2blBxTEhvcVVuWVpRd3BsS0duOFFmQXFEc28rdjU2blVjdC9hTkxqTFRjREI2N29PZmk5RkowWUxqbWtLZTFTS1RwOU9tNm0yTm0xQ0JZbWROSHBoNmJnMWJjVkxwaG1JNmhRaCtLYmRzZTQwL3lONmtVNUV5eWc3QnhKcldjWVpkamYzblB5akIvQldsL09NbDRPUDI2bDBGSGF4UWF1cklqNTdZU3d4ZzBoQTI3YmxtekkwUFk5dmhhazB6Z0t6eFB0WklQTExEVXdIa1J2bzc5ek5OMm1JMDNkNGY0Mi9sLzNFd3ZhTmU3dUZNUlRTZ1dibnFSOHVaQ29KRmc1ZmhFTUlTQ1lrWTZRMWREWHphb2RHbGh0TUI1WFk5UFVqTkJ1M2RER0wvL3lEUUFBLy84REFMbEl0MTE1QXdBQSI+IDxkYzp0aXRsZT4gPHJkZjpBbHQ+IDxyZGY6bGkgeG1sOmxhbmc9IngtZGVmYXVsdCI+ZG91YmxlIHJpZ2h0IGFycm93cyBkaXJlY3Rpb24gZm9yd2FyZCBidXR0b24gc2lsaG91ZXR0ZSBzdHlsZSBpY29uPC9yZGY6bGk+IDxyZGY6bGkgeG1sOmxhbmc9IngtcmVwYWlyIj5kb3VibGUgcmlnaHQgYXJyb3dzIGRpcmVjdGlvbiBmb3J3YXJkIGJ1dHRvbiBzaWxob3VldHRlIHN0eWxlIGljb248L3JkZjpsaT4gPC9yZGY6QWx0PiA8L2RjOnRpdGxlPiA8ZGM6ZGVzY3JpcHRpb24+IDxyZGY6QWx0PiA8cmRmOmxpIHhtbDpsYW5nPSJ4LWRlZmF1bHQiPmRvdWJsZSByaWdodCBhcnJvd3MgZGlyZWN0aW9uIGZvcndhcmQgYnV0dG9uIHNpbGhvdWV0dGUgc3R5bGUgaWNvbiB2ZWN0b3IgaWxsdXN0cmF0aW9uPC9yZGY6bGk+IDxyZGY6bGkgeG1sOmxhbmc9IngtcmVwYWlyIj5kb3VibGUgcmlnaHQgYXJyb3dzIGRpcmVjdGlvbiBmb3J3YXJkIGJ1dHRvbiBzaWxob3VldHRlIHN0eWxlIGljb24gdmVjdG9yIGlsbHVzdHJhdGlvbjwvcmRmOmxpPiA8L3JkZjpBbHQ+IDwvZGM6ZGVzY3JpcHRpb24+IDxkYzpzdWJqZWN0PiA8cmRmOkJhZz4gPHJkZjpsaT5mb3J3YXJkPC9yZGY6bGk+IDxyZGY6bGk+bmV4dDwvcmRmOmxpPiA8cmRmOmxpPnJpZ2h0PC9yZGY6bGk+IDxyZGY6bGk+YXJyb3c8L3JkZjpsaT4gPHJkZjpsaT5pY29uPC9yZGY6bGk+IDxyZGY6bGk+dmVjdG9yPC9yZGY6bGk+IDxyZGY6bGk+ZGlyZWN0aW9uPC9yZGY6bGk+IDxyZGY6bGk+cG9pbnRlcjwvcmRmOmxpPiA8cmRmOmxpPnNpbGhvdWV0dGU8L3JkZjpsaT4gPHJkZjpsaT5zdHlsZTwvcmRmOmxpPiA8cmRmOmxpPmRvdWJsZTwvcmRmOmxpPiA8cmRmOmxpPmlsbHVzdHJhdGlvbjwvcmRmOmxpPiA8cmRmOmxpPmJ1dHRvbjwvcmRmOmxpPiA8cmRmOmxpPm5hdmlnYXRpb248L3JkZjpsaT4gPHJkZjpsaT5pbnRlcmZhY2U8L3JkZjpsaT4gPHJkZjpsaT5kb3dubG9hZDwvcmRmOmxpPiA8cmRmOmxpPmFwcDwvcmRmOmxpPiA8cmRmOmxpPmRlc2lnbjwvcmRmOmxpPiA8cmRmOmxpPmludGVybmV0PC9yZGY6bGk+IDxyZGY6bGk+c2lnbjwvcmRmOmxpPiA8cmRmOmxpPndlYjwvcmRmOmxpPiA8cmRmOmxpPmlzb2xhdGVkPC9yZGY6bGk+IDxyZGY6bGk+c3ltYm9sPC9yZGY6bGk+IDxyZGY6bGk+ZGlnaXRhbDwvcmRmOmxpPiA8cmRmOmxpPmN1cnNvcjwvcmRmOmxpPiA8cmRmOmxpPmRvd248L3JkZjpsaT4gPHJkZjpsaT5mbGF0PC9yZGY6bGk+IDxyZGY6bGk+ZnJvbnQ8L3JkZjpsaT4gPHJkZjpsaT5tZWRpYTwvcmRmOmxpPiA8cmRmOmxpPmJhY2t3YXJkPC9yZGY6bGk+IDxyZGY6bGk+Y29ubmVjdGlvbjwvcmRmOmxpPiA8cmRmOmxpPmxpbms8L3JkZjpsaT4gPHJkZjpsaT5uYXZpZ2F0ZTwvcmRmOmxpPiA8cmRmOmxpPmluZGljYXRpbmc8L3JkZjpsaT4gPHJkZjpsaT5wb2ludDwvcmRmOmxpPiA8cmRmOmxpPmJhY2tncm91bmQ8L3JkZjpsaT4gPHJkZjpsaT5wbGF5PC9yZGY6bGk+IDxyZGY6bGk+aW5kaWNhdG9yPC9yZGY6bGk+IDwvcmRmOkJhZz4gPC9kYzpzdWJqZWN0PiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpkOTllMzg2OC1hMTc4LWY4NGItOTdkNS05YmM1NDM4ZDg0MzciIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NEFCRDkwOERGQkJCRUExMUJENTU5QjU2MTZDOTA4ODAiIHN0UmVmOm9yaWdpbmFsRG9jdW1lbnRJRD0idXVpZDo1RDIwODkyNDkzQkZEQjExOTE0QTg1OTBEMzE1MDhDOCIgc3RSZWY6cmVuZGl0aW9uQ2xhc3M9InByb29mOnBkZiIvPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo0MzFhZTI2Ny0xMjQ4LWZlNDUtODRkOS0xMjc1ODNmZmE5OTEiIHN0RXZ0OndoZW49IjIwMjAtMDUtMDFUMTE6MDM6NDUtMDU6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIElsbHVzdHJhdG9yIENDIDIzLjAgKFdpbmRvd3MpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDpkOTllMzg2OC1hMTc4LWY4NGItOTdkNS05YmM1NDM4ZDg0MzciIHN0RXZ0OndoZW49IjIwMjItMDQtMzBUMTY6Mjc6MzkrMDU6MzAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMS4yIChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY29udmVydGVkIiBzdEV2dDpwYXJhbWV0ZXJzPSJmcm9tIGltYWdlL2pwZWcgdG8gaW1hZ2UvcG5nIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJkZXJpdmVkIiBzdEV2dDpwYXJhbWV0ZXJzPSJjb252ZXJ0ZWQgZnJvbSBpbWFnZS9qcGVnIHRvIGltYWdlL3BuZyIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6ZjAzNjI2Y2EtNWI1YS1jMDQ3LWFiNmUtZjE4MjI4ODYzYmE2IiBzdEV2dDp3aGVuPSIyMDIyLTA0LTMwVDE2OjI3OjM5KzA1OjMwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjEuMiAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDxNaWNyb3NvZnRQaG90bzpMYXN0S2V5d29yZFhNUD4gPHJkZjpCYWc+IDxyZGY6bGk+Zm9yd2FyZDwvcmRmOmxpPiA8cmRmOmxpPm5leHQ8L3JkZjpsaT4gPHJkZjpsaT5yaWdodDwvcmRmOmxpPiA8cmRmOmxpPmFycm93PC9yZGY6bGk+IDxyZGY6bGk+aWNvbjwvcmRmOmxpPiA8cmRmOmxpPnZlY3RvcjwvcmRmOmxpPiA8cmRmOmxpPmRpcmVjdGlvbjwvcmRmOmxpPiA8cmRmOmxpPnBvaW50ZXI8L3JkZjpsaT4gPHJkZjpsaT5zaWxob3VldHRlPC9yZGY6bGk+IDxyZGY6bGk+c3R5bGU8L3JkZjpsaT4gPHJkZjpsaT5kb3VibGU8L3JkZjpsaT4gPHJkZjpsaT5pbGx1c3RyYXRpb248L3JkZjpsaT4gPHJkZjpsaT5idXR0b248L3JkZjpsaT4gPHJkZjpsaT5uYXZpZ2F0aW9uPC9yZGY6bGk+IDxyZGY6bGk+aW50ZXJmYWNlPC9yZGY6bGk+IDxyZGY6bGk+ZG93bmxvYWQ8L3JkZjpsaT4gPHJkZjpsaT5hcHA8L3JkZjpsaT4gPHJkZjpsaT5kZXNpZ248L3JkZjpsaT4gPHJkZjpsaT5pbnRlcm5ldDwvcmRmOmxpPiA8cmRmOmxpPnNpZ248L3JkZjpsaT4gPHJkZjpsaT53ZWI8L3JkZjpsaT4gPHJkZjpsaT5pc29sYXRlZDwvcmRmOmxpPiA8cmRmOmxpPnN5bWJvbDwvcmRmOmxpPiA8cmRmOmxpPmRpZ2l0YWw8L3JkZjpsaT4gPHJkZjpsaT5jdXJzb3I8L3JkZjpsaT4gPHJkZjpsaT5kb3duPC9yZGY6bGk+IDxyZGY6bGk+ZmxhdDwvcmRmOmxpPiA8cmRmOmxpPmZyb250PC9yZGY6bGk+IDxyZGY6bGk+bWVkaWE8L3JkZjpsaT4gPHJkZjpsaT5iYWNrd2FyZDwvcmRmOmxpPiA8cmRmOmxpPmNvbm5lY3Rpb248L3JkZjpsaT4gPHJkZjpsaT5saW5rPC9yZGY6bGk+IDxyZGY6bGk+bmF2aWdhdGU8L3JkZjpsaT4gPHJkZjpsaT5pbmRpY2F0aW5nPC9yZGY6bGk+IDxyZGY6bGk+cG9pbnQ8L3JkZjpsaT4gPHJkZjpsaT5iYWNrZ3JvdW5kPC9yZGY6bGk+IDxyZGY6bGk+cGxheTwvcmRmOmxpPiA8cmRmOmxpPmluZGljYXRvcjwvcmRmOmxpPiA8L3JkZjpCYWc+IDwvTWljcm9zb2Z0UGhvdG86TGFzdEtleXdvcmRYTVA+IDxwaG90b3Nob3A6RG9jdW1lbnRBbmNlc3RvcnM+IDxyZGY6QmFnPiA8cmRmOmxpPnhtcC5kaWQ6NEFCRDkwOERGQkJCRUExMUJENTU5QjU2MTZDOTA4ODA8L3JkZjpsaT4gPC9yZGY6QmFnPiA8L3Bob3Rvc2hvcDpEb2N1bWVudEFuY2VzdG9ycz4gPHRpZmY6Qml0c1BlclNhbXBsZT4gPHJkZjpTZXE+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"/></svg>
+    </div>
+    <!-- =======================================
+        ==End scroll top==  
+    =======================================-->
+
+    <!-- jQuary library -->
+    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+    <!-- enllax parallux -->
+    <script src="js/jquery.enllax.min.js"></script>
+
+    <!-- waypoint js -->
+    <script src="js/waypoint.js"></script>
+
+    <!-- slick js -->
+    <script src="lib/slick/slick.min.js"></script>
+    <script src="lib/slick/slick-carousel.js"></script>
+    <script src="lib/slick/slick-animation.js"></script>
+
+    <!-- all jQuary activation code here and always it will be bottom of all script tag -->
+    <script src="js/main.js"></script>
+</body>
+
+
+<!-- Mirrored from demo.themecon.net/onlyme/html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 Mar 2022 07:30:58 GMT -->
+
+</html>
